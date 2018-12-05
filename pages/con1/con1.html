@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    
+    
+    <link rel="stylesheet" type="text/css" href="con1.css">
+    <link rel="stylesheet" href="./../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./../../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./../../css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="decimalconversions.js"></script>
+    <script src="binaryconversions.js"></script>
+    <script src="octalconversion.js"></script>
+    <script src="hexconversion.js"></script>
+    
+    
+
+  
+    <title>React App</title>
+  </head>
+  <body>
+    <div class="header-view_range">
+
+          <div class="Header">
+              <div class="H-line"></div>
+              <div class="H-tittle-project">
+                  <div class="H-name-project">
+                      <div class="H-name-project-icon">
+                          <i class="fab fa-linode"></i>
+                      </div>
+                      <div class="H-name-project-text">
+                          <a href="./../index/index.html">
+                            <h1>UI PROJECT</h1></a>
+                      </div>
+
+                  </div>
+
+                  <div class="H-menu-namestudents">
+                      <div class="H-menu">
+                          <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                             
+                              <div class="H-menu-bar navbar-header">
+                                <button type="button" class="navbar-toggle">
+                                </button>
+                                <a class="navbar-brand" href="#">Con-1</a>
+                                <a class="navbar-brand" href="#">Con-2</a>
+                                <a class="navbar-brand" href="#">Combinatoric</a>
+                                <a class="navbar-brand" href="#">TruthTable</a>
+                                <a class="navbar-brand" href="#">RandomValue</a>
+                                <a class="navbar-brand" href="#">OurMath</a>
+                              </div>
+                              
+                              
+                              <div class="H-menu-icon">
+                                    <button type="button" class="btn btn-danger">
+                                    <i class="fas fa-bars"></i>
+                                    </button>
+                               
+                                  <div class="H-menu-icon-list">
+                                     <a href="#">Con-1</a>
+                                     <a href="#">Con-2</a>
+                                     <a href="#">Combinatoric</a>
+                                     <a href="#">TruthTable</a>
+                                     <a href="#">RandomValue</a>
+                                     <a href="#">OurMath</a>
+                                  </div>
+                              </div>  
+
+                              <div class="H-menu-PJ"> 
+                                <ul class="nav navbar-nav navbar-right">
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">PhanHongPhat & Joel
+                                     <b class="caret"></b></a>
+                                    <ul class="H-menu-PJ-list">
+                                      <a href="#">Con-1</a>
+                                      <a href="#">Con-2</a>
+                                      <a href="#">Combinatoric</a>
+                                      <a href="#">Truth Table</a>
+                                      <a href="#">Random Value</a>
+                                      <a href="#">Own Math</a>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+
+                            </div>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+            <div class="Body">
+            <div class="B-line"></div>
+            <div class="container">
+        <h1>Decimal</h1>
+        <input type="text" class="input1"> <br>
+        <div class="btns">
+            <button class="btn" onclick="decToBin()">Convert to Binary</button> <br>
+            <button class="btn" onclick="decToOct()">Convert to Octal</button> <br>
+            <button class="btn" onclick="decToHex()">Convert to Hexadecimal</button>
+        </div>
+    </div>
+        
+    <div class="output1"></div>
+    
+    <div class="container">
+        <h1>Binary</h1>
+        <input type="text" class="input2"> <br>
+        <div class="btns">
+            <button class="btn" onclick="binToDec()">Convert to Decimal</button> <br>
+            <button class="btn" onclick="binToOct()">Convert to Octal</button> <br>
+            <button class="btn" onclick="binToHex()">Convert to Hexadecimal</button>
+        </div>
+    </div>
+
+    <div class="output2"></div>
+
+    <div class="container">
+            <h1>Octal</h1>
+            <input type="text" class="input3"> <br>
+            <div class="btns">
+                <button class="btn" onclick="octToDec()">Convert to Decimal</button> <br>
+                <button class="btn" onclick="octToBin()">Convert to Binary</button> <br>
+                <button class="btn" onclick="octToHex()">Convert to Hexadecimal</button>
+            </div>
+        </div>
+    
+    <div class="output3"></div>
+
+    <div class="container">
+            <h1>Hexadecimal</h1>
+            <input type="text" class="input4"> <br>
+            <div class="btns">
+                <button class="btn" onclick="hexToDec()">Convert to Decimal</button> <br>
+                <button class="btn" onclick="hexToBin()">Convert to Binary</button> <br>
+                <button class="btn" onclick="hexToOct()">Convert to Octal</button>
+            </div>
+        </div>
+    
+    <div class="output4"></div>
+  </div><br>
+    <div class="B-line"></div><br>
+
+            <div class="Footer">
+                <div class="F-name">
+                  <div class="F-name1">
+                    <h1>PhanHongPhat</h1>
+                  </div>
+                  <div class="F-name2">
+                    <h1>JOEL</h1>
+                  </div>  
+                </div>
+            </div>
+        </div>
+
+      
+
+
+  </body>
+</html>
