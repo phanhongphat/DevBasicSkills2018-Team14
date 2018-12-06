@@ -13,9 +13,15 @@
 .H-line{
   width: 100%;
   border-style: solid;
-  height: 30px;
+  height: 60px;
   background-color: black;
+  display: flex;
+  font-family: broadway;
+  color: white;
+  font-size: 30px;
+  padding-top: 8px;
 }
+
 
 .H-tittle-project{
     margin-right: auto;
@@ -173,6 +179,9 @@
   font-family: algerian;
   color: red;
 }
+.F-name h3{
+    color: white;
+}
 
 /* desktop */
 @media screen and (min-width: 940px) {
@@ -282,6 +291,7 @@
   padding-left: 40%;
   font-family: algerian;
 }
+
 
 }
 

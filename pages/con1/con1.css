@@ -51,8 +51,14 @@ input {
 
 .H-line{
   width: 100%;
-  color: green;
   border-style: solid;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  font-family: broadway;
+  color: white;
+  font-size: 30px;
+  padding-top: 8px;
 }
 
 .H-tittle-project{
@@ -195,14 +201,20 @@ input {
 
 
 .Footer{
-  background-color: orange;
+  background-color: black;
   display:flex;
   width: 100%;
+  border-style: solid;
+  border-color: green;
+  color: red;
 }
 
 .F-name{
   padding-left: 16%;
   font-family: algerian;
+}
+.F-name h3{
+    color: white;
 }
 
 /* desktop */
@@ -227,11 +239,6 @@ input {
     margin-bottom: 2px;
 }
 
-.H-line{
-  width: 100%;
-  color: green;
-  border-style: solid;
-}
 
 .H-tittle-project{
     margin-right: auto;
@@ -329,7 +336,6 @@ input {
 }
 
 .Footer{
-  background-color: orange;
   display:flex;
 
 }
@@ -338,6 +344,7 @@ input {
   padding-left: 40%;
   font-family: algerian;
 }
+
 
 }
 
