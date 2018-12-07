@@ -4,9 +4,9 @@ function octToDec() {
     let octToDec = parseInt(getInput, 8).toString(10);
     
     if (isNaN(octToDec)) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = octToDec;
+        getOutput.innerHTML = "ANSWER is : " + octToDec;
     }
 }
 
@@ -16,9 +16,9 @@ function octToBin() {
     let octToBin = parseInt(getInput, 8).toString(2);
     
     if (isNaN(octToBin)) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = octToBin;
+        getOutput.innerHTML = "ANSWER is : " + octToBin;
     }
 }
 
@@ -28,8 +28,8 @@ function octToHex() {
     let octToHex = parseInt(getInput, 8).toString(16);
     
     if (isNaN(parseInt(octToHex))) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = octToHex.toUpperCase();
+        getOutput.innerHTML = "ANSWER is : " + octToHex.toUpperCase();
     }
 }

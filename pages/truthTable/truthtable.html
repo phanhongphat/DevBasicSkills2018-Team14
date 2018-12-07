@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,28 +7,25 @@
     <meta name="theme-color" content="#000000">
     
     
-    <link rel="stylesheet" type="text/css" href="con1.css">
-    <link rel="stylesheet" href="./../../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"  href="./../../css/bootstrap.min.css" />
     <link rel="stylesheet" href="./../../css/font-awesome.min.css" />
     <link rel="stylesheet" href="./../../css/fontawesome.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="decimalconversions.js"></script>
-    <script src="binaryconversions.js"></script>
-    <script src="octalconversion.js"></script>
-    <script src="hexconversion.js"></script>
+
     
     
 
   
-    <title>Number System Conversions PAGE</title>
+    <title>Main Page</title>
   </head>
   <body>
     <div class="header-view_range">
 
           <div class="Header">
               <div class="H-line">
-                <marquee direction="right" scrollamount="10">DevBasicSkill2018-Team14</marquee>
+                  <marquee direction="right" scrollamount="10">DevBasicSkill2018-Team14</marquee>
               </div>
               <div class="H-tittle-project">
                   <div class="H-name-project">
@@ -37,8 +33,8 @@
                           <i class="fab fa-linode"></i>
                       </div>
                       <div class="H-name-project-text">
-                          <a href="./../index/index.html">
-                            <h1>UI PROJECT</h1></a>
+                        <a href="./../index/index.html">
+                          <h1>UI PROJECT</h1>
                       </div>
 
                   </div>
@@ -51,10 +47,9 @@
                               <div class="H-menu-bar navbar-header">
                                 <button type="button" class="navbar-toggle">
                                 </button>
-                                
+                                <a class="navbar-brand" href="./../con1/con1.html">Con-1</a>
                                 <a class="navbar-brand" href="./../table/table.html">Con-2</a>
                                 <a class="navbar-brand" href="./../comb&perm/combinatorics.html">Combinatoric</a>
-                                <a class="navbar-brand" href="#">TruthTable</a>
                                 <a class="navbar-brand" href="#">RandomValue</a>
                                 <a class="navbar-brand" href="#">OurMath</a>
                               </div>
@@ -66,9 +61,9 @@
                                     </button>
                                
                                   <div class="H-menu-icon-list">
+                                     <a href="./../con1/con1.html">Con-1</a>
                                      <a href="./../table/table.html">Con-2</a>
                                      <a href="./../comb&perm/combinatorics.html">Combinatoric</a>
-                                     <a href="#">TruthTable</a>
                                      <a href="#">RandomValue</a>
                                      <a href="#">OurMath</a>
                                   </div>
@@ -80,9 +75,9 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">PhanHongPhat & Joel
                                      <b class="caret"></b></a>
                                     <ul class="H-menu-PJ-list">
+                                      <a href="./../con1/con1.html">Con-1</a>
                                       <a href="./../table/table.html">Con-2</a>
                                       <a href="./../comb&perm/combinatorics.html">Combinatoric</a>
-                                      <a href="#">Truth Table</a>
                                       <a href="#">Random Value</a>
                                       <a href="#">Own Math</a>
                                     </ul>
@@ -96,60 +91,134 @@
                   </div>
               </div>
           </div>
-
-            <div class="Body">
-            <div class="B-line"></div>
-    <div class="container">
-        <h1>Decimal</h1>
-        <input type="text" class="input1" placeholder="Input a Decimal..." style="text-align: center"> <br>
-        <div class="btns">
-            <button class="btn" onclick="decToBin()">Convert to Binary</button> <br>
-            <button class="btn" onclick="decToOct()">Convert to Octal</button> <br>
-            <button class="btn" onclick="decToHex()">Convert to Hexadecimal</button>
+    <div class="container1">
+        <div class="table">
+            <h3>AND</h3>
+            <table>
+                <tr>
+                    <th>p</th>
+                    <th>q</th>
+                    <th>p ∧ q</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>0</th>
+                </tr>
+            </table>
+        </div>
+        <div class="table">
+            <h3>OR</h3>
+            <table>
+                <tr>
+                    <th>p</th>
+                    <th>q</th>
+                    <th>p ∨ q</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>0</th>
+                </tr>
+            </table>
         </div>
     </div>
-        
-    <div class="output1"></div>
-    
-    <div class="container">
-        <h1>Binary</h1>
-        <input type="text" class="input2" placeholder="Input a Binary..." style="text-align: center"> <br>
-        <div class="btns">
-            <button class="btn" onclick="binToDec()">Convert to Decimal</button> <br>
-            <button class="btn" onclick="binToOct()">Convert to Octal</button> <br>
-            <button class="btn" onclick="binToHex()">Convert to Hexadecimal</button>
+
+    <div class="container2">       
+        <div class="table">
+            <h3>IMPLICATION</h3>
+            <table>
+                <tr>
+                    <th>p</th>
+                    <th>q</th>
+                    <th>p ⇒ q</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table">
+            <h3>EQUALITY</h3>
+            <table>
+                <tr>
+                    <th>p</th>
+                    <th>q</th>
+                    <th>p ↔ q</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>1</th>
+                </tr>
+            </table>
         </div>
     </div>
-
-    <div class="output2"></div>
-
-    <div class="container">
-            <h1>Octal</h1>
-            <input type="text" class="input3" placeholder="Input an Octal..." style="text-align: center"> <br>
-            <div class="btns">
-                <button class="btn" onclick="octToDec()">Convert to Decimal</button> <br>
-                <button class="btn" onclick="octToBin()">Convert to Binary</button> <br>
-                <button class="btn" onclick="octToHex()">Convert to Hexadecimal</button>
-            </div>
-        </div>
-    
-    <div class="output3"></div>
-
-    <div class="container">
-            <h1>Hexadecimal</h1>
-            <input type="text" class="input4" placeholder="Input a Hexadecimal..." style="text-align: center"> <br>
-            <div class="btns">
-                <button class="btn" onclick="hexToDec()">Convert to Decimal</button> <br>
-                <button class="btn" onclick="hexToBin()">Convert to Binary</button> <br>
-                <button class="btn" onclick="hexToOct()">Convert to Octal</button>
-            </div>
-        </div>
-    
-    <div class="output4"></div>
-  </div><br>
-    <div class="B-line"></div><br>
-
-            <div class="Footer">
+</div>
+     <div class="Footer">
                 <div class="F-name">
                   <div class="F-name1">
                     <h2>PhanHongPhat</h2>
@@ -159,15 +228,9 @@
                   </div> 
                   <div class="F-thank">
                     <marquee><h3><i class="fas fa-smile"></i>  THANK YOU FOR YOUR ATTENTION...!!! <i class="fas fa-smile"></i></h3></marquee>
-                  </div>
+                  </div> 
                 </div>
             </div>
-
-
-        </div>
-
-      
-
-
-  </body>
+   </div>         
+</body>
 </html>

@@ -4,9 +4,9 @@ function decToBin() {
     let decToBin = parseInt(getInput, 10).toString(2);
     
     if (isNaN(decToBin)) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = decToBin;
+        getOutput.innerHTML = "ANSWER is : " + decToBin;
     }
 }
 
@@ -16,9 +16,9 @@ function decToOct() {
     let decToOct = parseInt(getInput, 10).toString(8);
     
     if (isNaN(decToOct)) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = decToOct;
+        getOutput.innerHTML = "ANSWER is : " + decToOct;
     }
 }
 
@@ -28,8 +28,8 @@ function decToHex() {
     let decToHex = parseInt(getInput, 10).toString(16);
     
     if (isNaN(parseInt(decToHex))) {
-        getOutput.innerHTML = "Did you input a valid number?"
+        getOutput.innerHTML = '<i class="fas fa-smile"> Did you input a valid number?</i>'
     } else {
-        getOutput.innerHTML = decToHex.toUpperCase();
+        getOutput.innerHTML = "ANSWER is : " + decToHex.toUpperCase();
     }
 }
