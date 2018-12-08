@@ -4,7 +4,7 @@ function getRandomInterger() {
     let getOutput = document.querySelector(".output1");
 
     let generator = Math.floor(Math.random() * (max - min + 1) ) + min;
-    getOutput.innerHTML = generator;
+    getOutput.innerHTML = 'ANSWER is : ' + generator;
 }
 
 function shuffle(array) {
@@ -34,5 +34,5 @@ function getRandomIntergers() {
     const result = array.filter(Boolean)
     console.log(array);
 
-    getOutput.innerHTML = result;
+    getOutput.innerHTML = 'ANSWER is : ' + result;
 }
