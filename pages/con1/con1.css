@@ -60,6 +60,7 @@ input {
   color: white;
   font-size: 30px;
   padding-top: 8px;
+  border-color: green;
 }
 
 .H-menu{
@@ -84,6 +85,7 @@ input {
 
 .H-name-project-icon{
   font-size: 40px;
+  padding : 8px;
 }
 .H-name-project-text{
   font-size: 40px;
@@ -212,6 +214,7 @@ input {
   border-style: solid;
   border-color: green;
   color: red;
+  height: 60px;
 }
 
 .F-name{

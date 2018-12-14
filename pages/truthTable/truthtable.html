@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./../../css/font-awesome.min.css" />
     <link rel="stylesheet" href="./../../css/fontawesome.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
@@ -25,7 +26,7 @@
 
           <div class="Header">
               <div class="H-line">
-                  <marquee direction="right" scrollamount="10">DevBasicSkill2018-Team14</marquee>
+                  
               </div>
               <div class="H-tittle-project">
                   <div class="H-name-project">
@@ -34,7 +35,7 @@
                       </div>
                       <div class="H-name-project-text">
                         <a href="./../index/index.html">
-                          <h1>UI PROJECT</h1>
+                          UI PROJECT
                       </div>
 
                   </div>
@@ -50,6 +51,7 @@
                                 <a class="navbar-brand" href="./../con1/con1.html">Con-1</a>
                                 <a class="navbar-brand" href="./../table/table.html">Con-2</a>
                                 <a class="navbar-brand" href="./../comb&perm/combinatorics.html">Combinatoric</a>
+                                <a class="navbar-brand" href="./../truthTable/truthtable.html">TruthTable</a>
                                 <a class="navbar-brand" href="./../rndInt/random.html">RandomValue</a>
                                 <a class="navbar-brand" href="#">OurMath</a>
                               </div>
@@ -64,6 +66,7 @@
                                      <a href="./../con1/con1.html">Con-1</a>
                                      <a href="./../table/table.html">Con-2</a>
                                      <a href="./../comb&perm/combinatorics.html">Combinatoric</a>
+                                     <a href="./../truthTable/truthtable.html">TruthTable</a>
                                      <a href="./../rndInt/random.html">RandomValue</a>
                                      <a href="#">OurMath</a>
                                   </div>
@@ -78,6 +81,7 @@
                                       <a href="./../con1/con1.html">Con-1</a>
                                       <a href="./../table/table.html">Con-2</a>
                                       <a href="./../comb&perm/combinatorics.html">Combinatoric</a>
+                                      <a href="./../truthTable/truthtable.html">TruthTable</a>
                                       <a href="./../rndInt/random.html">Random Value</a>
                                       <a href="#">Own Math</a>
                                     </ul>
@@ -92,142 +96,29 @@
               </div>
           </div>
     <div class="container1">
-        <div class="table">
-            <h3>AND</h3>
-            <table>
-                <tr>
-                    <th>p</th>
-                    <th>q</th>
-                    <th>p ∧ q</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>0</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>1</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>0</th>
-                    <th>0</th>
-                </tr>
-            </table>
-        </div>
-        <div class="table">
-            <h3>OR</h3>
-            <table>
-                <tr>
-                    <th>p</th>
-                    <th>q</th>
-                    <th>p ∨ q</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>0</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>0</th>
-                    <th>0</th>
-                </tr>
-            </table>
-        </div>
+                <select name="operator" id="operator">
+                    <option value="and">AND</option>
+                    <option value="or">OR</option>
+                    <option value="implication">IMPLICATION</option>
+                    <option value="equality">EQUALITY</option>
+                </select>
+                <div class="btn">
+                  <button class="btn" onclick="printTable()">Print Table</button>
+                </div>
+                <div class="tbl">
+                </div>
+            </div>
     </div>
-
-    <div class="container2">       
-        <div class="table">
-            <h3>IMPLICATION</h3>
-            <table>
-                <tr>
-                    <th>p</th>
-                    <th>q</th>
-                    <th>p ⇒ q</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>0</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>0</th>
-                    <th>1</th>
-                </tr>
-            </table>
-        </div>
-
-        <div class="table">
-            <h3>EQUALITY</h3>
-            <table>
-                <tr>
-                    <th>p</th>
-                    <th>q</th>
-                    <th>p ↔ q</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>1</th>
-                    <th>1</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>0</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>1</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>0</th>
-                    <th>0</th>
-                    <th>1</th>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
      <div class="Footer">
                 <div class="F-name">
                   <div class="F-name1">
-                    <h2>PhanHongPhat</h2>
+                   
                   </div>
                   <div class="F-name2">
-                    <h2>JOEL</h2>
+                    
                   </div> 
                   <div class="F-thank">
-                    <marquee><h3><i class="fas fa-smile"></i>  THANK YOU FOR YOUR ATTENTION...!!! <i class="fas fa-smile"></i></h3></marquee>
+                   
                   </div> 
                 </div>
             </div>

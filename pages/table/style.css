@@ -20,6 +20,7 @@
   color: white;
   font-size: 30px;
   padding-top: 8px;
+  border-color: green;
 }
 
 .H-tittle-project{
@@ -40,6 +41,7 @@
 
 .H-name-project-icon{
   font-size: 40px;
+  padding: 8px;
 }
 .H-name-project-text{
   font-size: 40px;
@@ -174,6 +176,7 @@
   width: 100%;
   border-style: solid;
   border-color: green;
+  height: 60px;
 }
 
 .F-name{
