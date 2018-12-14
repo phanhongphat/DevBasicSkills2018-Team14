@@ -1,0 +1,296 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.view-range{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8fff7;
+}
+/*header*/
+
+.H-line{
+  width: 100%;
+  border-style: solid;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  font-family: broadway;
+  color: white;
+  font-size: 30px;
+  padding-top: 8px;
+  border-color: green;
+}
+
+
+.H-tittle-project{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.H-name-project{
+  color: green;
+  font-family: algerian;
+  padding: 4px; 
+  padding-left: 22%;
+  display: flex;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.H-name-project-icon{
+  font-size: 40px;
+  padding: 8px;
+}
+.H-name-project-text{
+  font-size: 40px;
+  padding: 8px;
+}
+
+.H-name-students{
+  font-family: algerian; 
+  float: right;
+  padding-right: 4%;
+}
+
+.H-menu{
+  font-family: algerian;
+}
+
+.H-menu-bar{
+  display: none;
+}
+
+.H-menu-namestudents{
+  margin-right: 4%;
+  margin-left: 4%;  
+}
+
+.H-menu-PJ{
+  margin-left: 36%;
+  display: flex;
+}
+
+
+.H-menu-icon{
+  padding: 4%;
+  margin-left: 36%;
+  position: relative;
+  display: inline-block;
+}
+
+/*menu icon */
+.H-menu-icon-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.H-menu-icon-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.H-menu-icon:hover .H-menu-icon-list {display: block;}
+
+/*icon dropdown PJ */
+.H-menu-PJ{
+  position: relative;
+  display: inline-block;
+}
+
+.H-menu-PJ-list{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.H-menu-PJ-list a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.H-menu-PJ:hover .H-menu-PJ-list {display: block;}
+
+
+/* Body */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px ;
+}
+.btn{
+  padding: 8px;
+}
+select {
+  margin-bottom: 5px;
+}
+
+.tbl {
+  margin: 15px;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+}
+
+
+
+.Footer{
+  background-color: black;
+  display:flex;
+  width: 100%;
+  border-style: solid;
+  border-color: green;
+  height: 60px;
+}
+
+.F-name{
+  padding-left: 16%;
+  font-family: algerian;
+  color: red;
+}
+.F-name h3{
+    color: white;
+}
+
+/* desktop */
+@media screen and (min-width: 940px) {
+
+/*header*/
+
+
+.H-tittle-project{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.H-name-project{
+  color: green;
+  font-family: algerian;
+  padding: 4px; 
+  padding-left: 36%;
+  display: flex;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.H-name-project-icon{
+  font-size: 40px;
+}
+.H-name-project-text{
+  font-size: 40px;
+  padding: 8px;
+}
+
+.H-name-students{
+  font-family: algerian; 
+  float: right;
+  padding-right: 4%;
+}
+
+.H-menu-namestudents{
+  margin-right: 4%;
+  margin-left: 4%;  
+}
+
+/* menu icon */
+.H-menu-icon{
+  display: none;
+}
+.H-menu-bar{
+  display: flex;
+}
+
+.H-menu-PJ{
+  float: right;
+}
+
+/* Body */
+.B-img_1{
+  display: flex;
+  padding: 4px;
+  width: 100%;
+}
+
+.B-img1_1{
+  width: 30%;
+  margin-left: 6%;
+}
+.img1_1{
+  margin-left: 16%;
+}
+.text1_1{
+  margin-left: 4%;
+  font-family: algerian;
+
+}
+
+.B-img_2{
+  display: flex;
+  padding: 4px;
+  width: 100%;
+}
+
+.B-img2_1{
+  width: 30%;
+  margin-left: 6%;
+}
+
+.text2_1{
+  margin-left: 20%;
+   font-family: algerian;
+}
+
+.B-line{
+  color: green;
+  border-style: solid;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.B-img-mobile{
+  display: none;
+}
+
+.B-img-desktop{
+  display: block;
+}
+
+.F-name{
+  padding-left: 40%;
+  font-family: algerian;
+}
+
+
+}
+
